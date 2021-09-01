@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/textColor" android:gravity="center" android:text="Update this Category" android:layout_marginTop="5dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/textColor" android:gravity="center" android:text="ItemName" android:textSize="20sp" android:textStyle="bold" android:id="@+id/itemName"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/textColor" android:id="@+id/amount" android:textColorHint="@color/black" android:minHeight="48dp" android:inputType="number" android:hint="Enter Amount..."/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/textColor" android:textColorHint="@color/black" android:minHeight="48dp" android:inputType="textCapSentences" android:hint="Enter Note"/>
+
+
+    -<LinearLayout android:layout_height="match_parent" android:layout_width="400dp" android:orientation="horizontal">
+
+    <Button android:layout_height="80dp" android:layout_width="170dp" android:layout_margin="2dp" android:textColor="@color/white" android:text="Delete" android:textStyle="bold" android:id="@+id/btndelete" android:textAllCaps="false" />
+
+    <Button android:layout_height="80dp" android:layout_width="170dp" android:layout_margin="2dp" android:textColor="#615A5A" android:text="Update" android:textStyle="bold" android:id="@+id/btnupdate" android:textAllCaps="false" />
+
+</LinearLayout>
+</LinearLayout>

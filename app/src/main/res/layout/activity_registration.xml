@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_Background"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/holtwood_one_sc"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/textColor"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:text="@string/create_a_new_account"
+        android:textColor="@color/textColor" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        app:cardCornerRadius="25dp"
+        style="@style/CardView.Dark"
+        app:cardElevation="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_Background"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <EditText
+            android:id="@+id/email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:hint="@string/enter_your_email"
+            android:paddingStart="10dp"
+            android:autofillHints="true"
+            android:textColor="@color/textColor"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+            android:textColorHint="#050505"
+            android:paddingEnd="10dp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:background="@drawable/no_background"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/dark_Background"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:hint="@string/enter_your_password"
+            android:paddingStart="10dp"
+            android:autofillHints="true"
+            android:textColor="@color/textColor"
+            android:id="@+id/password_reg"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+            android:textColorHint="#050505"
+            android:paddingEnd="10dp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:background="@drawable/no_background" />
+    </androidx.cardview.widget.CardView>
+
+<!--    <EditText-->
+<!--        android:id="@+id/email_reg"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:textCursorDrawable="@drawable/cursor"-->
+<!--        android:background="@drawable/no_background"-->
+<!--        android:textSize="16sp"-->
+<!--        android:autofillHints=""-->
+<!--        android:ems="10"-->
+<!--        android:hint="@string/enter_your_email"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        android:layout_gravity="center"/>-->
+<!--    <EditText-->
+<!--        android:id="@+id/password_reg"-->
+<!--        android:layout_width="243dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="75dp"-->
+<!--        android:layout_marginStart="75dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="@string/enter_your_password"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        android:inputType="textPassword|numberPassword"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColorHint="#050505"-->
+<!--        android:autofillHints="" />-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="55dp"
+        app:cardCornerRadius="95dp"
+        app:cardElevation="15dp"
+        android:layout_marginTop="35dp"
+        style="@style/CardView.Dark"
+        android:backgroundTint="@color/dark_Background"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:background="@drawable/no_background"
+            android:textSize="16sp"
+            android:text="@string/register"
+            android:textColor="@color/textColor"
+            android:id="@+id/btn_reg"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/login_here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/one_of_us_login"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+</LinearLayout>

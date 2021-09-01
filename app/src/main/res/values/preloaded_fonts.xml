@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/changa_one</item>
+        <item>@font/hind_vadodara_semibold</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/roboto_slab</item>
+        <item>@font/spicy_rice</item>
+    </array>
+</resources>

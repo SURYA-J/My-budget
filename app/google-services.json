@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1031630017777",
+    "project_id": "mybugetto",
+    "storage_bucket": "mybugetto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031630017777:android:b0b2dc6980dd4f630f0550",
+        "android_client_info": {
+          "package_name": "com.example.mybudget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031630017777-q6rqt05flgndq9lpjfmpmsi0kirc8209.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mybudget",
+            "certificate_hash": "5d6e6de674df24bfbbb79b7acd97ae0da1bc42d7"
+          }
+        },
+        {
+          "client_id": "1031630017777-e76rb9r8snf13eijddur74pig3s53a00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwpYuz0s_PkLj8ziA4ql4WP-pslxMQN1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031630017777-e76rb9r8snf13eijddur74pig3s53a00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

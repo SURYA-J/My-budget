@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My Budget</string>
+    <string name="logo">Logo</string>
+    <string name="login">login</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_here_signup">New here?SignUp</string>
+    <string name="login1">Login</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="username">UserName</string>
+    <string name="one_of_us_login">One of Us?Login</string>
+    <string name="budget">Budget</string>
+    <string name="today">Today</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="savings">Savings</string>
+    <string name="my_budget">My Budget</string>
+    <string name="history">History</string>
+    <string name="analytics">Analytics</string>
+    <string name="total_budget_amount_0">Total Budget:₹0</string>
+    <string name="fab">fab</string>
+    <string name="select_a_budget_item">Select a Budget Item</string>
+    <string name="enter_your_amount">Enter Your Amount</string>
+    <string name="enter_note">Enter Note</string>
+    <string name="note">Note</string>
+    <string name="date">Date</string>
+    <string name="_0">₹0</string>
+    <string name="category_name">Category name</string>
+    <string name="delete">TODO</string>
+    <string name="cat">cat</string>
+
+
+    //---Spinner---//
+    <string-array name="items">
+        <item>Select a category</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Charity</item>
+        <item>Apparel</item>
+        <item>Insurance</item>
+        <item>Recharge</item>
+        <item>Other</item>
+    </string-array>
+    //---Spinner---//
+</resources>
